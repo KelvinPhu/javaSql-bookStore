@@ -54,6 +54,7 @@ public class customer {
 		this.dateOfBirth = dateOfBirth;
 	}
 
+	// toString
 	@Override
 	public String toString() {
 		return "customer [customerID=" + customerID + ", fullName=" + fullName + ", address=" + address
