@@ -12,7 +12,7 @@ public class book {
 	public book(String iD, String bookName, String price, int yearEstablish) {
 		super();
 		ID = iD;
-		this.bookName = bookName;
+		this.bookName = bookname;
 		this.price = price;
 		this.yearEstablish = yearEstablish;
 	}
