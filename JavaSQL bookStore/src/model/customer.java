@@ -9,16 +9,16 @@ public class customer {
 		super();
 	}
 
+	public customer(String customerID) {
+		this.customerID = customerID;
+	}
+
 	public customer(String customerID, String fullName, String address, int dateOfBirth) {
 		super();
 		this.customerID = customerID;
 		this.fullName = fullName;
 		this.address = address;
 		this.dateOfBirth = dateOfBirth;
-	}
-	
-	public customer(String customerID) {
-		this.customerID = customerID;
 	}
 
 	// getter && setter
