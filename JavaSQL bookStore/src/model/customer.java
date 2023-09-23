@@ -12,7 +12,7 @@ public class customer {
 	public customer(String customerID) {
 		this.customerID = customerID;
 	}
-
+	
 	public customer(String customerID, String fullName, String address, int dateOfBirth) {
 		super();
 		this.customerID = customerID;
@@ -20,7 +20,7 @@ public class customer {
 		this.address = address;
 		this.dateOfBirth = dateOfBirth;
 	}
-
+	
 	// getter && setter
 	public String getCustomerID() {
 		return customerID;
