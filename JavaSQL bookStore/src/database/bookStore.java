@@ -10,7 +10,7 @@ public class bookStore {
 	public static Connection createConnection() {
 		Connection c = null;
 		
-		try {
+		try{
 			DriverManager.registerDriver(new SQLServerDriver());
 			
 			String url = "jdbc:sqlserver://THIEN-PHU:1433;databaseName=bookStore;encrypt=false";
