@@ -60,5 +60,5 @@ public class customer {
 		return "customer [customerID=" + customerID + ", fullName=" + fullName + ", address=" + address
 				+ ", dateOfBirth=" + dateOfBirth + "]";
 	}
-	
+
 }
