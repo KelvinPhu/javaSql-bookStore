@@ -13,7 +13,7 @@ public class bookStore {
 		try {
 			DriverManager.registerDriver(new SQLServerDriver());
 			
-			String url = "jdbc:sqlserver://THIEN-PHU:1433;databaseName=bookStore;encrypt=false";
+			String url = "jdbc:sqlserver://THIEN-PHU:1433;databaseName=javaJDBC_bookStore;encrypt=false";
 			String user = "sa";
 			String password = "123456789Thien_Phu";
 			
